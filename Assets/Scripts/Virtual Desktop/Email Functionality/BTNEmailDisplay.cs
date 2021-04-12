@@ -79,7 +79,7 @@ public class BTNEmailDisplay : MonoBehaviour
         EmailSystem.Email key = null;
         string keyMessage = message.text;
 
-        foreach (var Email in EmailList.emails)
+        foreach (var Email in EmailList.emails) //O(n) search for emails is not too bad considering upper limit of emails is six
         {
             if (Email.message.Equals(keyMessage))
             

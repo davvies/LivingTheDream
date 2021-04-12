@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
@@ -20,7 +19,7 @@ public class FileSettings : MonoBehaviour
         {
             case 0: 
 			
-				//O(n) searching needed due to Unity not allowng ease of closing UI objects
+				//O(n) searching needed due to Unity not allowing ease of closing UI objects
                 foreach(Transform screenObj in mainPanel.transform)
                 {
                     if (screenObj.name.Contains(windowTag))

@@ -42,6 +42,8 @@ public class PreDayDisplay : MonoBehaviour
         gm.ChangeCursorBackToOrignalCursor();
         UpdateFields();
     }
+
+    /// <summary> Method <c>OnClickSnooze</c> Rapid shaking of the UI 'snooze' icon </summary>
     public void OnClickSnooze()
     {
         //mute alarm
@@ -53,7 +55,7 @@ public class PreDayDisplay : MonoBehaviour
     public void OnClickLaunchDay()
     {
         am.UnmuteCurrentTrack();
-        gm.ChangeCursorToMouseCursor();
+        gm.ChangeCursorToHandSymbol();
 
         switch (gameStats.dayTracker.GetDay())
         {

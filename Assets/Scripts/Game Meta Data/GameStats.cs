@@ -13,7 +13,7 @@ public class GameStats : MonoBehaviour
         emotionTracker = new EmotionStats();
     }
 
-    /// <summary> Inner class <c>EmotionStats</c> Logic for tracking how emotion changes thorugh the week </summary>
+    /// <summary> Inner class <c>EmotionStats</c> Logic for tracking how emotion changes through the week </summary>
     public class EmotionStats
     {
         public int relationshipToFamily;

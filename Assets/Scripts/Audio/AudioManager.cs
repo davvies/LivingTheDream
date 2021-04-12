@@ -20,7 +20,7 @@ public class AudioManager : MonoBehaviour
 
     void Start() => StartCoroutine(WaitTillEndOfFrame());
 
-    /// <summary> Method <c>WaitTillEndOfFrame</c> Allow music to play until end of frame </summary>
+    /// <summary> Method <c>WaitTillEndOfFrame</c> To stop audio conflicts, audio is played at the end of frame </summary>
     IEnumerator WaitTillEndOfFrame()
     {
         /*
@@ -36,7 +36,7 @@ public class AudioManager : MonoBehaviour
 
     enum AUDIOSTATE { sMenu, sPreDay, sEndScreen, sPostDay, sEndMenu} //all active music states
 
-    AUDIOSTATE audioState = AUDIOSTATE.sMenu; //dynamic active satte 
+    AUDIOSTATE audioState = AUDIOSTATE.sMenu; //dynamic audio state 
 
     void Update()
     {

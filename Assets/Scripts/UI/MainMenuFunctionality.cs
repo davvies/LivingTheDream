@@ -11,7 +11,7 @@ public class MainMenuFunctionality : MonoBehaviour
     public void StartGame()
     {
         //launch game
-        config.ChangeCursorToMouseCursor();
+        config.ChangeCursorToHandSymbol();
         openingScene.gameObject.SetActive(true);
         gameObject.SetActive(false);            
     }

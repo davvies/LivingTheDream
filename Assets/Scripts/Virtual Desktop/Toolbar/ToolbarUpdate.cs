@@ -7,6 +7,6 @@ public class ToolbarUpdate : MonoBehaviour
     [SerializeField] GameStats stats;
     [SerializeField] TextMeshProUGUI date;
 
-    void Start() => date.text = stats.dayTracker.GetDateOfDayInComputer();
+    void Start() => date.text = stats.dayTracker.GetDateOfDayInComputer(); //retrieve the current formatted day
     
 }

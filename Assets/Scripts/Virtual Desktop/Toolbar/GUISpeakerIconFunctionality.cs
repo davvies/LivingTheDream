@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
-/// <summary> Class <c>GUISpeakerIconFunctionalirt</c> Interaction for muting in game </summary>
+/// <summary> Class <c>GUISpeakerIconFunctionalirt</c> In-game incon representation of audio state </summary>
 public class GUISpeakerIconFunctionality : MonoBehaviour
 {
     public AudioSource levelAudio; //audio level
